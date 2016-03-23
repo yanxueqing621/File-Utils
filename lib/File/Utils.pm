@@ -5,7 +5,7 @@ use PerlIO::gzip;
 use Exporter;
 
 # VERSION
-# ABSTRACT: File::Utils - Provide various of file operation
+# ABSTRACT: Provide various of file operation
 
 our @ISA = ('Exporter');
 our @EXPORT = ();
