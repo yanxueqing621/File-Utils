@@ -1,7 +1,12 @@
 Revision history for File-Utils
 
-0.0.1 2016-03-23T08:22:50
+0.0.2 2016-03-23T09:58:42
  [Yan Xueqing]
+ - Modified Name in readme file
+
+0.0.1 2016-03-23T08:22:51
+ [Yan Xueqing]
+ - Auto commited by dzil with version 0.0.1 at 23-Mar-2016
  - Add read_handle and write_handle function
  - Initialize gitrepo with `dzil new`
 

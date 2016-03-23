@@ -1,10 +1,10 @@
 # NAME
 
-File::Utils - File::Utils - Provide various of file operation
+File::Utils - Provide various of file operation
 
 # VERSION
 
-version 0.0.1
+version 0.0.2
 
 # SYNOPSIS
 
