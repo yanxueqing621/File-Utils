@@ -1,2 +1,7 @@
 Revision history for File-Utils
 
+0.0.1 2016-03-23T08:22:50
+ [Yan Xueqing]
+ - Add read_handle and write_handle function
+ - Initialize gitrepo with `dzil new`
+
