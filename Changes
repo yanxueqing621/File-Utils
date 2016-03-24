@@ -1,10 +1,14 @@
 Revision history for File-Utils
 
-0.0.2 2016-03-23T09:58:42
+0.0.3 2016-03-24T04:00:37
+ [Yan Xueqing]
+ - Fixed bug that write_handle can't work normally
+
+0.0.2 2016-03-23T09:58:42Z
  [Yan Xueqing]
  - Modified Name in readme file
 
-0.0.1 2016-03-23T08:22:51
+0.0.1 2016-03-23T08:22:51Z
  [Yan Xueqing]
  - Auto commited by dzil with version 0.0.1 at 23-Mar-2016
  - Add read_handle and write_handle function
