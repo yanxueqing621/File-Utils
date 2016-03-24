@@ -73,7 +73,7 @@ sub write_handle {
   my $file = shift;
   my $handle;
   if ($file =~/\.gz$/) {
-    open $handle, "<:gzip", $file;
+    open $handle, ">:gzip", $file;
   } else {
     open $handle, ">", $file;
   }
