@@ -9,9 +9,10 @@ use Exporter;
 
 our @ISA = ('Exporter');
 our @EXPORT = ();
-our @EXPORT_OK = qw/read_handle write_handle/;
+our @EXPORT_OK = qw/read_handle write_handle file2array/;
 our %EXPORT_TAGS = (
-  gz    => [qw/read_handle write_handle/]
+  gz    => [qw/read_handle write_handle/],
+  data  => [qw/file2array/]
 );
 
 =head1 SYNOPSIS
@@ -79,6 +80,24 @@ sub write_handle {
   }
   $handle->autoflush;
   return $handle;
+}
+
+=head2 file2array
+
+Convert file path to two-dimension array
+
+=cut
+
+sub file2array {
+  my ($filename, $sep) = @_;
+  $sep ||= "\t";
+  open my $file, "<", "$filename";
+  my @out;
+  while (my $line = <$file>) {
+    my @cols = split $sep, $line;
+    push @out, \@cols;
+  }
+  return @out;
 }
 
 1;
