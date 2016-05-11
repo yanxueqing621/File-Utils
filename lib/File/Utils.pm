@@ -98,6 +98,7 @@ sub file2array {
     my @cols = split $sep, $line;
     push @out, \@cols;
   }
+  close($file);
   return @out;
 }
 
