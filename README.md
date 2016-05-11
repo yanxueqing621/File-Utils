@@ -4,7 +4,7 @@ File::Utils - Provide various of file operation
 
 # VERSION
 
-version 0.0.3
+version 0.0.4
 
 # SYNOPSIS
 
@@ -42,6 +42,10 @@ with different types of file and finding specific module
 
 Obtain a write filehandle of different types of file according to the ext of a file. It simplified the process of dealing
 with different types of file and finding specific module
+
+## file2array
+
+Convert file path to two-dimension array
 
 # AUTHOR
 
