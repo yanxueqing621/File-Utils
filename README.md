@@ -4,7 +4,7 @@ File::Utils - Provide various of file operation
 
 # VERSION
 
-version 0.0.4
+version 0.0.5
 
 # SYNOPSIS
 
