@@ -94,6 +94,7 @@ sub file2array {
   open my $file, "<", "$filename";
   my @out;
   while (my $line = <$file>) {
+    chomp($line);
     my @cols = split $sep, $line;
     push @out, \@cols;
   }
